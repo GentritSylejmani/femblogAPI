@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gentr\\Desktop\\DIRECTORIES\\femblog\\femblogAPI\\femblogAPI.csproj": {}
+    "C:\\Users\\Gentrit Sylejmani\\Desktop\\GITREPO\\femblogapi\\femblogAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gentr\\Desktop\\DIRECTORIES\\femblog\\femblogAPI\\femblogAPI.csproj": {
+    "C:\\Users\\Gentrit Sylejmani\\Desktop\\GITREPO\\femblogapi\\femblogAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gentr\\Desktop\\DIRECTORIES\\femblog\\femblogAPI\\femblogAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Gentrit Sylejmani\\Desktop\\GITREPO\\femblogapi\\femblogAPI.csproj",
         "projectName": "femblogAPI",
-        "projectPath": "C:\\Users\\gentr\\Desktop\\DIRECTORIES\\femblog\\femblogAPI\\femblogAPI.csproj",
-        "packagesPath": "C:\\Users\\gentr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gentr\\Desktop\\DIRECTORIES\\femblog\\femblogAPI\\obj\\",
+        "projectPath": "C:\\Users\\Gentrit Sylejmani\\Desktop\\GITREPO\\femblogapi\\femblogAPI.csproj",
+        "packagesPath": "C:\\Users\\Gentrit Sylejmani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gentrit Sylejmani\\Desktop\\GITREPO\\femblogapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gentr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Gentrit Sylejmani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -42,6 +40,30 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
