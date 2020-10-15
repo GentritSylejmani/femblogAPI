@@ -5,7 +5,9 @@ namespace femblogAPI.Data
 {
     public interface IFemblogRepo
     {
-        public IEnumerable<Post> GetAllPosts();
-        public Post GetPostById(int id);
+        bool SaveChanges();
+        IEnumerable<Post> GetAllPosts();
+        Post GetPostById(int id);
+        void CreatePost(Post post);
     }
 }

@@ -6,6 +6,11 @@ namespace femblogAPI.Data
 {
     public class MockFemblogRepo : IFemblogRepo
     {
+        public void CreatePost(Post post)
+        {
+            throw new NotImplementedException();
+        }
+
         public IEnumerable<Post> GetAllPosts()
         {
             var posts = new List<Post>
@@ -22,6 +27,11 @@ namespace femblogAPI.Data
         public Post GetPostById(int id)
         {
             return new Post{ PostID=0,Title="Postimi me id 0",Category=PostCategory.Post,Content="Nje permbajtje lorem ipsum0213984 324uif",Posttime=DateTime.Now ,PostedBy = new User{Name="Gentrit",Surname="Sylejmani"}};
+        }
+
+        public bool SaveChanges()
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -9,6 +9,7 @@ namespace femblogAPI.Profiles
         public PostsProfile()
         {
             CreateMap<Post, PostReadDTO>();
+            CreateMap<PostCreateDTO,Post>();
         }
     }
 }
