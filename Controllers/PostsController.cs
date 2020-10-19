@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using AutoMapper;
 using femblogAPI.Data;
@@ -45,6 +46,7 @@ namespace femblogAPI.Controllers
         {
             var postItem = _repository.GetPostById(id);
 
+            //postItem.Category = (PostCategory)Enum.ToObject(typeof(PostCategory) , postItem.Category);
             
             if(postItem!= null)
             {
@@ -52,6 +54,20 @@ namespace femblogAPI.Controllers
             }
 
             return NotFound();
+        }
+
+        //POST api/posts
+        [HttpPost]
+        public ActionResult <PostReadDTO> CreatePost(PostCreateDTO createPost)
+        {
+            var postmodel = _mapper.Map<Post>(createPost);
+            //createPost.PostedBy = _repository.GetUserById(createPost.PostedBy.UserId); 
+            _repository.CreatePost(postmodel);
+            _repository.SaveChanges();
+
+            var postread = _mapper.Map<PostReadDTO>(postmodel);
+
+            return CreatedAtRoute(nameof(GetPostById),new {id = postread.PostID},postread);
         }
     }
 }

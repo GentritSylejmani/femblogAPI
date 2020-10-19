@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using femblogAPI.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace femblogAPI.Data
 {
@@ -13,14 +14,20 @@ namespace femblogAPI.Data
         {
             _context=context;
         }
+
+        public User GetUserById(int id)
+        {
+            return _context.Users.FirstOrDefault(u =>u.UserId==id);
+        }
+
         public IEnumerable<Post> GetAllPosts()
         {
-            return _context.Posts.ToList();
+            return _context.Posts.Include(u => u.PostedBy).ToList();
         }
 
         public Post GetPostById(int id)
         {
-            return _context.Posts.FirstOrDefault(p => p.PostID==id);
+            return _context.Posts.Include(u => u.PostedBy).FirstOrDefault(p => p.PostID==id);
         }
 
         public void CreatePost(Post post)
@@ -36,6 +43,11 @@ namespace femblogAPI.Data
         public bool SaveChanges()
         {
            return (_context.SaveChanges()>=0);
+        }
+
+        public IEnumerable<User> GetAllUsers()
+        {
+            return _context.Users.ToList();
         }
     }
 

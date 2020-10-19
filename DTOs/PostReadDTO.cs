@@ -5,6 +5,7 @@ namespace femblogAPI.DTOs
 {
     public class PostReadDTO 
     {
+        public int PostID { get; set; }
         public PostCategory Category { get; set; }
 
         public string Title { get; set; }

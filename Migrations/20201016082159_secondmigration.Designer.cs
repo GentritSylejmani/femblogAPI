@@ -10,8 +10,8 @@ using femblogAPI.Data;
 namespace femblogAPI.Migrations
 {
     [DbContext(typeof(femblogapiContext))]
-    [Migration("20201014085300_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20201016082159_secondmigration")]
+    partial class secondmigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -87,7 +87,6 @@ namespace femblogAPI.Migrations
                         .HasForeignKey("PostedByUserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
                 });
 #pragma warning restore 612, 618
         }

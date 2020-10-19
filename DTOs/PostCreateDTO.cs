@@ -1,5 +1,5 @@
 using System;
-using femblogAPI.Data;
+using femblogAPI.Models;
 
 namespace femblogAPI.DTOs
 {

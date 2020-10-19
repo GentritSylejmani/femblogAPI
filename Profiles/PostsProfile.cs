@@ -8,6 +8,7 @@ namespace femblogAPI.Profiles
     {
         public PostsProfile()
         {
+            //source-> target
             CreateMap<Post, PostReadDTO>();
             CreateMap<PostCreateDTO,Post>();
         }
