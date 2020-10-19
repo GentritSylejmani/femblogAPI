@@ -18,6 +18,7 @@ C:\Users\gentr\Desktop\DIRECTORIES\femblog\femblogAPI\obj\Debug\netcoreapp3.1\st
 C:\Users\gentr\Desktop\DIRECTORIES\femblog\femblogAPI\obj\Debug\netcoreapp3.1\femblogAPI.dll
 C:\Users\gentr\Desktop\DIRECTORIES\femblog\femblogAPI\obj\Debug\netcoreapp3.1\femblogAPI.pdb
 C:\Users\gentr\Desktop\DIRECTORIES\femblog\femblogAPI\obj\Debug\netcoreapp3.1\femblogAPI.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\Users\gentr\Desktop\DIRECTORIES\femblog\femblogAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\gentr\Desktop\DIRECTORIES\femblog\femblogAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\gentr\Desktop\DIRECTORIES\femblog\femblogAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -59,3 +60,68 @@ C:\Users\gentr\Desktop\DIRECTORIES\femblog\femblogAPI\bin\Debug\netcoreapp3.1\ru
 C:\Users\gentr\Desktop\DIRECTORIES\femblog\femblogAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\gentr\Desktop\DIRECTORIES\femblog\femblogAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\gentr\Desktop\DIRECTORIES\femblog\femblogAPI\obj\Debug\netcoreapp3.1\femblogAPI.csproj.CopyComplete
+=======
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\obj\Debug\netcoreapp3.1\femblogAPI.AssemblyInfoInputs.cache
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\obj\Debug\netcoreapp3.1\femblogAPI.AssemblyInfo.cs
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\obj\Debug\netcoreapp3.1\femblogAPI.csproj.CoreCompileInputs.cache
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\obj\Debug\netcoreapp3.1\femblogAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\obj\Debug\netcoreapp3.1\femblogAPI.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\obj\Debug\netcoreapp3.1\femblogAPI.pdb
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\femblogAPI.exe
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\femblogAPI.deps.json
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\femblogAPI.runtimeconfig.json
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\femblogAPI.runtimeconfig.dev.json
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\femblogAPI.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\femblogAPI.pdb
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\obj\Debug\netcoreapp3.1\femblogAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\obj\Debug\netcoreapp3.1\femblogAPI.csproj.CopyComplete
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\obj\Debug\netcoreapp3.1\staticwebassets\femblogAPI.StaticWebAssets.Manifest.cache
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\obj\Debug\netcoreapp3.1\staticwebassets\femblogAPI.StaticWebAssets.xml
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\obj\Debug\netcoreapp3.1\femblogAPI.genruntimeconfig.cache
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\obj\Debug\netcoreapp3.1\femblogAPI.csprojAssemblyReference.cache
+>>>>>>> d38ac58575da3c3b06520527d885d0e2e3824271
