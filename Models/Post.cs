@@ -11,7 +11,7 @@ namespace femblogAPI.Models
 
     public class Post
     {
-
+        
         public int PostID { get; set; }
         public PostCategory Category { get; set; }
         public string Title { get; set; }
