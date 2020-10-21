@@ -125,3 +125,5 @@ C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\Au
 C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Gentrit Sylejmani\Desktop\GITREPO\femblogapi\obj\Debug\netcoreapp3.1\femblogAPI.csprojAssemblyReference.cache
 >>>>>>> d38ac58575da3c3b06520527d885d0e2e3824271
+C:\Users\gentr\Desktop\DIRECTORIES\femblog\femblogAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\gentr\Desktop\DIRECTORIES\femblog\femblogAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

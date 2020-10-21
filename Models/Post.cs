@@ -19,16 +19,12 @@ namespace femblogAPI.Models
 
     public class Post
     {
-<<<<<<< HEAD
-        
-=======
         public Post()
         {
     
         }
 
         [Key]
->>>>>>> d38ac58575da3c3b06520527d885d0e2e3824271
         public int PostID { get; set; }
         [Required]
         public PostCategory Category { get; set; }
