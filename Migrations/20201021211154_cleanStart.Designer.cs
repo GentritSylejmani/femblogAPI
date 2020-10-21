@@ -10,8 +10,8 @@ using femblogAPI.Data;
 namespace femblogAPI.Migrations
 {
     [DbContext(typeof(femblogapiContext))]
-    [Migration("20201016082159_secondmigration")]
-    partial class secondmigration
+    [Migration("20201021211154_cleanStart")]
+    partial class cleanStart
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -35,9 +35,6 @@ namespace femblogAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PostedByUserId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("Posttime")
                         .HasColumnType("datetime2");
 
@@ -45,9 +42,12 @@ namespace femblogAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("PostID");
 
-                    b.HasIndex("PostedByUserId");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Posts");
                 });
@@ -82,11 +82,9 @@ namespace femblogAPI.Migrations
 
             modelBuilder.Entity("femblogAPI.Models.Post", b =>
                 {
-                    b.HasOne("femblogAPI.Models.User", "PostedBy")
-                        .WithMany()
-                        .HasForeignKey("PostedByUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasOne("femblogAPI.Models.User", null)
+                        .WithMany("Posts")
+                        .HasForeignKey("UserId");
                 });
 #pragma warning restore 612, 618
         }

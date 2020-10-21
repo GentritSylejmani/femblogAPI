@@ -33,9 +33,6 @@ namespace femblogAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PostedByUserId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("Posttime")
                         .HasColumnType("datetime2");
 
@@ -43,9 +40,12 @@ namespace femblogAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("PostID");
 
-                    b.HasIndex("PostedByUserId");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Posts");
                 });
@@ -80,9 +80,9 @@ namespace femblogAPI.Migrations
 
             modelBuilder.Entity("femblogAPI.Models.Post", b =>
                 {
-                    b.HasOne("femblogAPI.Models.User", "PostedBy")
-                        .WithMany()
-                        .HasForeignKey("PostedByUserId")
+                    b.HasOne("femblogAPI.Models.User", "User")
+                        .WithMany("Posts")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

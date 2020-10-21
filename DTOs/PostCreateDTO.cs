@@ -13,6 +13,6 @@ namespace femblogAPI.DTOs
         public string Content { get; set; }
         
         public DateTime Posttime { get; set; }
-        public User PostedBy {get; set;}
+        public int UserId {get; set;}
     }
 }

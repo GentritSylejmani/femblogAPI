@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using  System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.Serialization;
 using System.Text.Json.Serialization;
 using Newtonsoft.Json.Converters;
@@ -33,10 +34,9 @@ namespace femblogAPI.Models
         [Required]
         public string Content { get; set; }
         [Required]
-        public DateTime Posttime { get; set; }
+        public DateTime Posttime { get; set; } 
         [Required]
-        public virtual User PostedBy {get; set;}
-       
+        public int UserId {get; set;}
+        public User? User {get; set;}
     }
 }
-

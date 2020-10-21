@@ -22,16 +22,17 @@ namespace femblogAPI.Data
 
         public IEnumerable<Post> GetAllPosts()
         {
-            return _context.Posts.Include(u => u.PostedBy).ToList();
+            return _context.Posts.ToList();
         }
 
         public Post GetPostById(int id)
         {
-            return _context.Posts.Include(u => u.PostedBy).FirstOrDefault(p => p.PostID==id);
+            return _context.Posts.FirstOrDefault(p => p.PostID==id);
         }
 
         public void CreatePost(Post post)
         {
+            
             if (post==null)
             {
                 throw new ArgumentNullException(nameof(post));

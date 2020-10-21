@@ -5,6 +5,11 @@ namespace femblogAPI.DTOs
 {
     public class PostReadDTO 
     {
+        public PostReadDTO()
+        {
+            PostedBy = new UserReadDTO();
+        }
+
         public int PostID { get; set; }
         public PostCategory Category { get; set; }
 
@@ -13,6 +18,8 @@ namespace femblogAPI.DTOs
         public string Content { get; set; }
         
         public DateTime Posttime { get; set; }
-        public User PostedBy {get; set;}
+        public int UserId {get; set;}
+
+        public UserReadDTO PostedBy {get; set;}
     }
 }

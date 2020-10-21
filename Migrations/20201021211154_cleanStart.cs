@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace femblogAPI.Migrations
 {
-    public partial class InitialMigration : Migration
+    public partial class cleanStart : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -33,23 +33,23 @@ namespace femblogAPI.Migrations
                     Title = table.Column<string>(nullable: false),
                     Content = table.Column<string>(nullable: false),
                     Posttime = table.Column<DateTime>(nullable: false),
-                    PostedByUserId = table.Column<int>(nullable: false)
+                    UserId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Posts", x => x.PostID);
                     table.ForeignKey(
-                        name: "FK_Posts_Users_PostedByUserId",
-                        column: x => x.PostedByUserId,
+                        name: "FK_Posts_Users_UserId",
+                        column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "UserId",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Posts_PostedByUserId",
+                name: "IX_Posts_UserId",
                 table: "Posts",
-                column: "PostedByUserId");
+                column: "UserId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

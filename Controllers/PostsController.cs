@@ -30,10 +30,25 @@ namespace femblogAPI.Controllers
         public ActionResult<IEnumerable<PostReadDTO>> GetAllPosts()
         {
             var postItems = _repository.GetAllPosts();
+            var mappedposts=_mapper.Map<IEnumerable<PostReadDTO>>(postItems);
 
-            if(postItems!= null)
+            foreach(var post in mappedposts)
             {
-                return Ok(_mapper.Map<IEnumerable<PostReadDTO>>(postItems));
+                foreach(var user in _repository.GetAllUsers())
+                {
+                    if(post.UserId==user.UserId)
+                    {
+                        post.PostedBy.UserId = user.UserId;
+                        post.PostedBy.Name = user.Name;
+                        post.PostedBy.Surname = user.Surname;
+                    }
+                }
+            }
+
+            
+            if(postItems!= null)
+            {             
+                return Ok(mappedposts);
             }
 
             return NotFound();
@@ -41,18 +56,27 @@ namespace femblogAPI.Controllers
         }
 
         //GET api/posts/{id}
-        [HttpGet("{id}")]
+        [HttpGet("{id}",Name="GetPostById")]
         public ActionResult<PostReadDTO> GetPostById(int id)
         {
             var postItem = _repository.GetPostById(id);
+            var post =_mapper.Map<PostReadDTO>(postItem);
 
-            //postItem.Category = (PostCategory)Enum.ToObject(typeof(PostCategory) , postItem.Category);
+             foreach(var user in _repository.GetAllUsers())
+                {
+                    if(post.UserId==user.UserId)
+                    {
+                        post.PostedBy.UserId = user.UserId;
+                        post.PostedBy.Name = user.Name;
+                        post.PostedBy.Surname = user.Surname;
+                        post.Posttime = DateTime.Now;
+                    }
+                }
             
             if(postItem!= null)
             {
-                return Ok(_mapper.Map<PostReadDTO>(postItem));
+                return Ok(post);
             }
-
             return NotFound();
         }
 
@@ -60,8 +84,9 @@ namespace femblogAPI.Controllers
         [HttpPost]
         public ActionResult <PostReadDTO> CreatePost(PostCreateDTO createPost)
         {
+            
             var postmodel = _mapper.Map<Post>(createPost);
-            //createPost.PostedBy = _repository.GetUserById(createPost.PostedBy.UserId); 
+
             _repository.CreatePost(postmodel);
             _repository.SaveChanges();
 
