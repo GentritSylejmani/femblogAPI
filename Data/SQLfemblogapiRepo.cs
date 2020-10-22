@@ -50,6 +50,16 @@ namespace femblogAPI.Data
         {
             return _context.Users.ToList();
         }
+
+        public void CreateUser(User user)
+        {
+            if (user== null)
+            {
+                throw new ArgumentNullException(nameof(user));
+            }
+
+            _context.Users.Add(user);
+        }
     }
 
 }

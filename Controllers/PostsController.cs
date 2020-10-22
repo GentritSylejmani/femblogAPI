@@ -92,6 +92,8 @@ namespace femblogAPI.Controllers
 
             var postread = _mapper.Map<PostReadDTO>(postmodel);
 
+            postread.PostedBy = _mapper.Map<UserReadDTO>(_repository.GetUserById(postread.UserId));
+
             return CreatedAtRoute(nameof(GetPostById),new {id = postread.PostID},postread);
         }
     }

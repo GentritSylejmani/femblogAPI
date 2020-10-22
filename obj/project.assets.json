@@ -5708,27 +5708,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gentr\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\Gentrit Sylejmani\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gentr\\Desktop\\DIRECTORIES\\femblog\\femblogAPI\\femblogAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Gentrit Sylejmani\\Desktop\\GITREPO\\femblogapi\\femblogAPI.csproj",
       "projectName": "femblogAPI",
-      "projectPath": "C:\\Users\\gentr\\Desktop\\DIRECTORIES\\femblog\\femblogAPI\\femblogAPI.csproj",
-      "packagesPath": "C:\\Users\\gentr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gentr\\Desktop\\DIRECTORIES\\femblog\\femblogAPI\\obj\\",
+      "projectPath": "C:\\Users\\Gentrit Sylejmani\\Desktop\\GITREPO\\femblogapi\\femblogAPI.csproj",
+      "packagesPath": "C:\\Users\\Gentrit Sylejmani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gentrit Sylejmani\\Desktop\\GITREPO\\femblogapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\gentr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Gentrit Sylejmani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5795,13 +5792,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\gentr\\Desktop\\DIRECTORIES\\femblog\\femblogAPI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

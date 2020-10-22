@@ -9,6 +9,7 @@ namespace femblogAPI.Data
         IEnumerable<Post> GetAllPosts();
         Post GetPostById(int id);
         void CreatePost(Post post);
+        void CreateUser(User user);
         IEnumerable<User> GetAllUsers();
         User GetUserById(int id);
 
